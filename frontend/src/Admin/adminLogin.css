@@ -1,0 +1,67 @@
+.admin-login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('https://avatars.mds.yandex.net/i?id=c07dfebc08bf59176acc91c0f0e33c8dcb2f359a-8172987-images-thumbs&n=13');
+    border-radius: 5px;
+    margin-top: 200px;
+    
+  }
+  
+  .admin-login-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type='text'],
+  input[type='password'] {
+    padding: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #010412;
+    color: rgb(40, 226, 121);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 55px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #4ace46;
+  }
+  .toast-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .toast {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    white-space: normal;
+    max-width: 300px; 
+  }
+  
+  body{
+    background-image: url('https://img.freepik.com/free-photo/futuristic-library-with-shelves-symmetry-generated-by-ai_188544-16487.jpg?size=626&ext=jpg&ga=GA1.2.1954963867.1690302248&semt=ais_ai_generated');
+    background-repeat: no-repeat;
+    background-size: 1600px;}
+
+    

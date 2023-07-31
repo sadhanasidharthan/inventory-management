@@ -1,0 +1,60 @@
+/* NewLoginPage.css */
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(218, 32, 32);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(140, 140, 153);
+}
+
+p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+a {
+  color: rgb(44, 44, 50);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* .wel{
+  text-align:left;
+  width: 100vw;
+  display: flex;
+} */
+
+
+
+
+
+

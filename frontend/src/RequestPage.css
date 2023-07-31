@@ -1,0 +1,63 @@
+/* CSS for RequestPage Component */
+.request {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.request-heading {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.request-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.request-item {
+  margin-bottom: 10px;
+}
+
+.request-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px; /* Add margin to separate from the list */
+}
+
+.request-select {
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.request-button {
+  background: blue;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.request-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.request-button:hover {
+  background: darkblue;
+}
+body{
+  background-image: url("https://media.istockphoto.com/id/1060680796/vector/individual-e-commerce-business-at-house-studio-check-orders-and-packing-goods-for-delivery.jpg?s=612x612&w=0&k=20&c=PPtJ04fuuSYMHeNh7Rr1jpMgQzEl5BBFIB-rlEYZTC8=");
+}

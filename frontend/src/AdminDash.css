@@ -1,0 +1,40 @@
+/* CSS for Admin Dashboard Navigation Bar */
+nav {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+a {
+  color: #fcf9f9; /* Changed the link color */
+  text-decoration: none;
+}
+
+button {
+  background: blue;
+  border: none;
+  color: #fcf9f9;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none; /* Removed the underline */
+  margin-left: 10px; /* Added margin to separate buttons */
+}
+body{
+  background-image: url("https://media.istockphoto.com/id/1060680796/vector/individual-e-commerce-business-at-house-studio-check-orders-and-packing-goods-for-delivery.jpg?s=612x612&w=0&k=20&c=PPtJ04fuuSYMHeNh7Rr1jpMgQzEl5BBFIB-rlEYZTC8=");
+}
